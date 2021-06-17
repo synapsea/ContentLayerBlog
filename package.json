@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "_build": "contentlayer fetch && contentlayer generate && next build",
+    "start": "next start",
+    "gen:stackbit": "contentlayer-stackbit-yaml-generator"
+  },
+  "dependencies": {
+    "contentlayer": "latest",
+    "date-fns": "^2.21.3",
+    "next": "^10.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.3",
+    "contentlayer-stackbit-yaml-generator": "latest",
+    "next-contentlayer": "latest",
+    "typescript": "^4.2.4"
+  }
+}
